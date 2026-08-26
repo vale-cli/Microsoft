@@ -11,6 +11,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      # The archive is what users install, so the license travels
+      # inside it.
+      - run: cp LICENSE Microsoft/LICENSE
       - run: zip -r Microsoft.zip Microsoft -x "*.DS_Store"
 
       - name: Upload style to release
