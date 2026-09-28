@@ -1,0 +1,17 @@
+$ cdf ${ROOTDIR}/fixtures/OxfordComma
+$ vale --output=line --sort --normalize --relative --no-global --no-exit .
+test.md:4:1:Microsoft.OxfordComma:Use the Oxford comma in 'Apples, pears or bananas'.
+test.md:6:1:Microsoft.OxfordComma:Use the Oxford comma in 'Cats, dogs or birds'.
+test.md:8:5:Microsoft.OxfordComma:Use the Oxford comma in ', dogs or birds need food.'.
+test.md:10:1:Microsoft.OxfordComma:Use the Oxford comma in 'Cats, dogs or birds'.
+test.md:12:1:Microsoft.OxfordComma:Use the Oxford comma in 'Coal, petroleum or wood'.
+test.md:14:1:Microsoft.OxfordComma:Use the Oxford comma in 'Red apples, ripe pears or green bananas'.
+test.md:16:1:Microsoft.OxfordComma:Use the Oxford comma in 'Malaria, yellow fever and dengue fever'.
+test.md:18:1:Microsoft.OxfordComma:Use the Oxford comma in 'The variety of apple, maturity and storage conditions'.
+test.md:20:1:Microsoft.OxfordComma:Use the Oxford comma in 'Bicycle lights, reflectors and helmets'.
+test.md:27:37:Microsoft.OxfordComma:Use the Oxford comma in ', goats or sheep.'.
+test.md:29:16:Microsoft.OxfordComma:Use the Oxford comma in ', 2 or 3.'.
+test.md:31:7:Microsoft.OxfordComma:Use the Oxford comma in ', pears or bananas.'.
+test.md:35:22:Microsoft.OxfordComma:Use the Oxford comma in ', pears or bananas get wet.'.
+test.md:94:38:Microsoft.OxfordComma:Use the Oxford comma in ', spaced or bare.'.
+test.md:100:55:Microsoft.OxfordComma:Use the Oxford comma in ', fear or anxiety.'.
