@@ -98,3 +98,14 @@ Assembly, C or Rust are supported.
 In China, Korea and Japan, dogs are viewed as kind protectors.
 
 A dog can become aggressive because of trauma or abuse, fear or anxiety.
+
+<!-- A fronted prepositional phrase, and an example or purpose after the
+comma (issue #75): neither comma separates list items. -->
+
+In the dialog box, fill in the name and select a layout.
+
+We recommend updating the app after each release, in order to maintain compatibility and support.
+
+This can cause errors with large data volumes, such as embeddings or chat completions.
+
+On the next page, apples, pears or bananas rot.
