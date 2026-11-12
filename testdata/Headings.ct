@@ -4,5 +4,5 @@ test.md:1:3:Microsoft.Headings:'Test: modern documentation management' should us
 test.md:1:7:Microsoft.HeadingColons:Capitalize ': m'.
 test.md:5:3:Microsoft.Headings:'This is a Heading' should use sentence-style capitalization.
 test.md:7:13:Microsoft.HeadingPunctuation:Don't use end punctuation in headings.
-test.md:9:3:Microsoft.Headings:'Accepting a JSON response' should use sentence-style capitalization.
+test.md:9:3:Microsoft.Headings:'Accepting A JSON Response' should use sentence-style capitalization.
 test.md:9:15:Microsoft.HeadingAcronyms:Avoid using acronyms in a title or heading.

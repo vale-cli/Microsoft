@@ -6,7 +6,7 @@
 
 # Another one.
 
-# Accepting a JSON response
+# Accepting A JSON Response
 
 # Top-level entities
 
